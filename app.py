@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Flask App deployed via Jenkins + ArgoCD on MicroK8s!"
+    return "Hello from Flask App deployed via Jenkins and CI/CD!"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
